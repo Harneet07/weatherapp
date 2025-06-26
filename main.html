@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather Application</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  
+  <video autoplay muted loop id="bgVideo">
+    <source src="weather5.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+
+  <div class="wrapper">
+    <h1>🌤️ My Weather Application</h1>
+
+    <div class="search-container">
+      <input type="text" id="cityInput" placeholder="Enter city name" />
+      <button id="searchBtn">Get Weather</button>
+    </div>
+
+    <div id="mainParent"></div>
+  </div>
+
+
+  <footer>
+    <p>Designed by Harneet</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
